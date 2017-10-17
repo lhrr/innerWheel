@@ -1,0 +1,107 @@
+.content{
+	width: 600px;
+	height: 450px;
+	margin: 50px auto;
+	background: #fff;
+	border: 2px solid #ccc;
+}
+
+.title{
+	background: #e8e8e8;
+	border-bottom: 2px #ccc solid;
+}
+.title-item{
+	float: left;
+	padding: 16px 20px;
+	color: #000;
+	border-right: 2px #ccc solid;
+	cursor: pointer;
+}
+.title .active{
+	background: #fff;
+	color: #0b5bf3;
+	border-top: 2px #ff0f30 solid;
+	border-bottom: 2px #fff solid;
+	margin-top: -1px;
+	margin-bottom: -2px;
+}
+.body{
+	width: 100%;
+	height: 394px;
+	position: relative;
+}
+.letterScroll{
+	width: 564px;
+	height: 370px;
+	padding: 12px 8px;
+	overflow: hidden;
+	position: relative;
+}
+.letterSlide{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.letterSlide h3{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	letter-spacing: 3px;
+	cursor: text;
+}
+.letterSlide p{
+	margin: 10px 20px;
+	text-indent: 26px;
+	font-size: 14px;
+	line-height: 22px;
+	cursor: text;
+}
+.btnScroll{
+	width: 20px;
+	height: 354px;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	background: #efefef;
+	cursor: pointer;
+}
+.arrowUp{
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #efefef;
+	background-image: url(../demoImages/arrow2.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.arrowDown{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: #efefef;
+	background-image: url(../demoImages/arrow3.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.btn{
+	width: 20px;
+	height: 40px;
+	background-color: #6d6c69;
+	border-radius: 3px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url(../demoImages/btn.png);
+	cursor: default;
+}
+.btn:hover{
+	background-color: #2c2c2c;
+}
